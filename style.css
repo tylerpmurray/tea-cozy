@@ -6,6 +6,7 @@ html{
     opacity: 0.9;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 body{
@@ -41,4 +42,23 @@ header img {
     height: 50px;
     padding-left: 10px;
     padding-top: 10px;
+}
+
+/*Title Section*/
+
+.image {
+    background-image: url("resources/img-mission-background.jpg");
+    height: 700px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mission{
+    background-color: black;
+    position: absolute;
+    top: 35%;
+    width: 1200px
+    
+    
 }
