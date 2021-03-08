@@ -49,16 +49,29 @@ header img {
 .image {
     background-image: url("resources/img-mission-background.jpg");
     height: 700px;
-    width: 95%;
+    width: 97%;
     margin-left: auto;
     margin-right: auto;
+    background-position: 50%;
+    background-size: cover;
 }
+
 
 #mission{
     background-color: black;
     position: absolute;
     top: 35%;
-    width: 1200px
-    
-    
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+#mission h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#mission h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
