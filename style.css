@@ -38,6 +38,7 @@ header li {
     padding-right: 10px;
     padding-left: 10px;
     font-size: 1em;
+    align-content: center;
 }
 
 header img {
@@ -46,12 +47,25 @@ header img {
     padding-top: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    header li {
+      font-size: .8em;
+    }
+  }
+
+  @media only screen and (max-width: 504px) {
+    header li {
+      font-size: .7em;
+
+    }
+  }
+
 /*Title Section*/
 
 .image {
     background-image: url("resources/img-mission-background.jpg");
     height: 700px;
-    width: 100%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     background-position: 50%;
@@ -63,7 +77,7 @@ header img {
     background-color: black;
     position: absolute;
     top: 35%;
-    width: 100%;
+    width: 95%;
     margin-left: auto;
     margin-left: auto;
 }
@@ -133,20 +147,35 @@ header img {
 }
 
 .box {
-    width: 300px;
+
     height: 300px;
     background-color: black;
     margin: 15px 20px;
+    flex-basis: 300px;
 }
 
 .box p{
     line-height: 3rem;
+    flex-shrink: 1;
 }
 
 #container h2{
     margin: 0px;
     padding-top: 75px;
     padding-bottom: 0;
+}
+
+@media only screen and (max-width: 934px){
+    .box{
+        font-size: .75em;
+        overflow: scroll;
+
+    }
+
+    .box p{
+        line-height: 2rem;
+
+    }
 }
 
 /*Contact Section */
